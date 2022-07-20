@@ -1,0 +1,28 @@
+/**********************************************************************
+*Method Name    : XXXXXX
+*Author         : Kevin Zwart 
+*Due Date       : 7/15/2022
+*Program Description: Program will ask user to input a number. It will 
+*then output that number with a message to the screen.
+*********************************************************************/
+
+import java.util.Scanner;
+
+public class Input 
+{
+	public static void main(String[] args) 
+	{
+			int value = 0;
+			
+			Scanner input = new Scanner(System.in);
+			System.out.println("Please enter a number 1 - 5.");
+				value = input.nextInt();
+				
+				if(value < 1 || value > 5);
+				{
+					System.out.println("Please enter a number 1-5");
+				}
+				
+			System.out.println("You selected "+value);
+	}
+}
